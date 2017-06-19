@@ -1,0 +1,11 @@
+通过git上传本地文件到github
+$git config --global user.name "ruiiur"
+$git config --global user.email "2362641334@qq.com"
+打开要上传的文件，右键，点击Git Bash Here
+$git init
+$git add .
+(如果出现换行不一样的警告，输入$git config --global core.autocrlf  false)
+$git commit -m "first"
+$git remote add origin git@github.com:ruiiur/backstage.git(ssh协议或者https协议)
+$git pull --rebase origin master
+$git push -u origin master 
