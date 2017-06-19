@@ -1,6 +1,6 @@
 通过git上传本地文件到github
-$git config --global user.name "ruiiur"
-$git config --global user.email "2362641334@qq.com"
+$git config --global user.name "name"
+$git config --global user.email "email"
 打开要上传的文件，右键，点击Git Bash Here
 $git init
 $git add .
