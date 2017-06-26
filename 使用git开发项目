@@ -1,4 +1,4 @@
-git clone https://github.com/awhiles/awhile.git  (克隆线上代码)
+git clone https://github.com/awhiles/awhile.git  (克隆线上代码,最好是ssh地址,https有时报错,不知道为什么)
 
 git checkout -b dev (创建本地dev分支 并切换到该分支)
 
