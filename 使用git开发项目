@@ -1,0 +1,29 @@
+git clone https://github.com/awhiles/awhile.git  (克隆线上代码)
+
+git checkout -b dev (创建本地dev分支 并切换到该分支)
+
+git pull origin master  (将线上的最新的主分支代码更新到本地新建的dev分支上)
+
+......开发中
+
+.......开发结束
+
+git add .
+
+git commit -m '开始说明文字'
+
+git push origin dev  (将本地的dev分支上的代码推送到线上去)
+
+git checkout master  (切换到本地主分支上)
+
+git pull origin dev  (将线上最新的你刚推送的线上dev分支代码跟新到本地主分支上)
+
+git push origin master  (跟新完之后 此时本地的主分支代码已经是最新的 但是线上主分支代码还不是最新的  所有将本地主分支最新的推到线上主分支上 )
+
+git checkout dev   (以上就是一个环  都跟新完后再切换到dev)
+
+
+梁 2017-06-26 10:13:14
+......开发中
+
+.......开发结束
