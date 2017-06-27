@@ -13,6 +13,9 @@ git add .
 git commit -m '开始说明文字'
 
 git push origin dev  (将本地的dev分支上的代码推送到线上去)
+这步可能会报错，因为远程分支比你的本地更新，需要先用git pull试图合并
+如果git pull提示“no tracking information”，则说明本地分支和远程分支的链接关系没有创建，用命令git branch --set-upstream branch-name origin/branch-name，成功后
+再次git pull
 
 git checkout master  (切换到本地主分支上)
 
@@ -23,7 +26,6 @@ git push origin master  (跟新完之后 此时本地的主分支代码已经是
 git checkout dev   (以上就是一个环  都跟新完后再切换到dev)
 
 
-梁 2017-06-26 10:13:14
 ......开发中
 
 .......开发结束
