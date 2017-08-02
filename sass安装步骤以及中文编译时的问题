@@ -3,3 +3,9 @@ gem sources --remove https://rubygems.org/(这个是移除默认下载路径)
 gem sources -a http://gems.ruby-china.org/(这个是更改后的新的路径)
 gem sources -l(这个是检查更改是否生效)
 gem install sass
+
+
+
+
+解决sass文件中有中文注释以及文件名含中文的问题：
+http://www.cnblogs.com/chengwb/p/6122132.html
