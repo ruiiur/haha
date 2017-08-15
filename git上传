@@ -9,3 +9,10 @@ $git commit -m "first"
 $git remote add origin git@github.com:ruiiur/backstage.git(ssh协议或者https协议)
 $git pull --rebase origin master
 $git push -u origin master 
+
+
+
+如果楼主想把在公司电脑上上传的设备回到家后用自己的电脑下载下来，修改之后再上传
+首先要克隆项目 
+$git clone 
+
